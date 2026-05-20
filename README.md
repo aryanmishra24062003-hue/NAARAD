@@ -4,8 +4,7 @@ packages/ holds code shared across apps. ui/ for reusable components (buttons, l
 Tooling recommendation: Use pnpm workspaces + Turborepo for this. pnpm gives you fast installs with a single lockfile, and Turborepo gives you smart caching — it only rebuilds packages that actually changed. The pnpm-workspace.yaml just points to apps/* and packages/*.
 <img width="142" height="150" alt="naard_monorepo_structure" src="https://github.com/user-attachments/assets/3506b10d-ad85-400c-b277-f7720f75b46f" />
 <svg width="100%" viewBox="0 0 680 720" role="img" style="" xmlns="http://www.w3.org/2000/svg">
-<title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Naard monorepo directory structure</title>
-<desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">A structural diagram showing the recommended monorepo layout with root config, apps directory containing pwa and api, a packages directory for shared code, and infrastructure config.</desc>
+
 <defs>
   <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
     <path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
